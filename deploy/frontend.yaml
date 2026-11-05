@@ -20,12 +20,15 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
+        env:
+        - name: BROWSER
+          value: "none"
         resources:
           requests:
             memory: "128Mi"
             cpu: "128m"
           limits:
-            memory: "256Mi"
+            memory: "512Mi"
             cpu: "256m"
 ---
 apiVersion: v1

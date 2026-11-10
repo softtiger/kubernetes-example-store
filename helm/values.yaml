@@ -1,11 +1,11 @@
 frontend:
-  image: lyzhang1999/frontend
-  tag: '1276e23'
+  image: revokeyu/frontend
+  tag: 'c709c68'
   autoscaling:
     averageUtilization: 90
 backend:
-  image: lyzhang1999/backend
-  tag: '1276e23'
+  image: revokeyu/backend
+  tag: 'c709c68'
   autoscaling:
     averageUtilization: 90
 database:

@@ -21,7 +21,8 @@ app.config['SQLALCHEMY_DATABASE_URI'] = (
 )
 
 db = SQLAlchemy(app)
-db.init_app(app)
+# cause RuntimeError: A 'SQLAlchemy' instance has already been registered on this Flask app. Import and use that instance instead.
+#db.init_app(app)
 
 
 class Text(db.Model):

@@ -4,7 +4,7 @@ metadata:
   name: frontend-ingress
 spec:
   rules:
-    - host: {{ .Release.Namespace }}.env.my
+    - host: {{ .Release.Namespace }}.env.home
       http:
         paths:
           - path: /

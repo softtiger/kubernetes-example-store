@@ -23,6 +23,8 @@ spec:
         env:
         - name: REACT_APP_NAMESPACES
           value: {{ .Release.Namespace }}
+        - name: BROWSER 
+          value: "none"
 
 ---
 apiVersion: v1

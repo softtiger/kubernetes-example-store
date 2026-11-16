@@ -1,11 +1,11 @@
 frontend:
   image: revokeyu/frontend
-  tag: 3b717b4
+  tag: 2b7f34b
   autoscaling:
     averageUtilization: 90
 backend:
   image: revokeyu/backend
-  tag: 3b717b4
+  tag: 2b7f34b
   autoscaling:
     averageUtilization: 90
 database:
